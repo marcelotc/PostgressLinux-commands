@@ -1,0 +1,17 @@
+sudo su postgres
+
+man psql
+
+psql
+
+\l
+
+\du
+
+ALTER USER postgres WITH PASSWORD 'postgres';
+
+CREATE USER user_1 WITH PASSWORD 'teste';
+
+ALTER USER user_1 WITH SUPERUSER;
+
+DROP USER user_1
