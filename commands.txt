@@ -8,6 +8,12 @@ psql
 
 \du
 
+CREATE DATABASE test;
+
+conectando-se com o banco
+
+psql -> \c test
+
 ALTER USER postgres WITH PASSWORD 'postgres';
 
 CREATE USER user_1 WITH PASSWORD 'teste';
