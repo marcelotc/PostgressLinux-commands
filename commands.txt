@@ -14,6 +14,10 @@ conectando-se com o banco
 
 psql -> \c test
 
+psql -> \d
+
+psql -> \d person
+
 ALTER USER postgres WITH PASSWORD 'postgres';
 
 CREATE USER user_1 WITH PASSWORD 'teste';
